@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@900&family=Roboto:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;900&display=swap');
+
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+
+body {
+ background-color: hsl(212, 45%, 89%);
+ font-family: 'Outfit', sans-serif;
+
+}
+
+a {
+ text-decoration: none;
+ color: #3685FF;
+ font-weight: 700;
+}
+
+.flex-wrap {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+.container {
+ background: #fff;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ padding: 0.9em;
+ max-width: 300px;
+ max-height: 600px;
+ border-radius: 10px;
+ -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+ box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+}
+
+.container img {
+ max-width: 100%;
+ border-radius: 15px;
+}
+
+.container h1 {
+ font-weight: 700;
+ color: hsl(218, 44%, 22%);
+ text-align: center;
+ font-size: 22px;
+ margin-top: 5px;
+}
+
+.container p {
+ color: hsl(220, 15%, 55%);
+ text-align: center;
+ font-size: 15px;
+ padding: 5px 10px 10px;
+}
